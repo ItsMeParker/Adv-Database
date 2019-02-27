@@ -1,0 +1,30 @@
+{
+	"Theatre_Booking_ID" : 5,
+	"Booking_Date" : "08-12-12",
+	"Performace" : {
+		"Date" : "12-12-12",
+		"Mat_Eve" : "Mat", 
+		"Seats" : ["A1","A2"]
+	},
+
+	"Performace" : {
+		"Date" : "11-12-12",
+		"Mat_Eve" : "Eve", 
+		"Seats" : ["C1","C2"]
+	},
+
+	"Customer_Name" : "Nott Abbot",
+
+	"Paid" : 19,
+	"Card_Type" : "MASTEECARD",
+	"Card_Number" : "sdfxcvth",
+}
+
+
+{
+	"Price_Bands" : {
+		"A-K" : "40",
+		"L-S" : "30",
+		"T-Z" : "25",
+	}
+}
