@@ -1,0 +1,12 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1,Text Area 2,Text Area 3,Text Area 4,Text Area 5,Text Area 6,Text Area 7
+1,Page,,,,,,,,,Page 1,,,,,,
+2,Entity,Entity Relationship,1,,,,,,,Booking,Booking_ID : INTEGER,Booking_Date : TIMESTAMP,Payment_ID : INTEGER,Per_or_Tel : BOOLEAN,Authorisation : INTEGER,
+3,Entity,Entity Relationship,1,,,,,,,Payment,Payment_ID : INTEGER,Booking_ID : INTEGER,Card_Number : VARCAHR(TBD),Card_Type : VARCHAR(TBD),Amount_Payed : DECIMAL,Field
+4,Entity,Entity Relationship,1,,,,,,,Ticket Categories,Category_ID : INTEGER,Price : DECIMAL,,,,
+5,Entity,Entity Relationship,1,,,,,,,Seat Booking,Booking_ID : INTEGER,Performace_ID : INTEGER,Seats_Booked : VARCHAR(100),Category_ID : INTEGER,,
+6,Entity,Entity Relationship,1,,,,,,,Performance,Performance_ID : INTEGER,Performace_Date : TIMESTAMP,Name : VARCHAR(TBD),,,
+7,Entity,Entity Relationship,1,,,,,,,Customer,Customer_ID : INTEGER,Field,Field,,,
+8,Line,,1,,,2,5,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,
+9,Line,,1,,,6,5,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,
+10,Line,,1,,,4,5,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,
+11,Line,,1,,,2,3,CFN ERD One Arrow,CFN ERD One Arrow,,,,,,,
